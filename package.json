@@ -1,9 +1,9 @@
 {
   "name": "freefire-info-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "freefire.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node freefire.js"
   },
   "keywords": [],
   "author": "",
