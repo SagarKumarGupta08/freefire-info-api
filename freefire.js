@@ -1,12 +1,15 @@
-const axios = require('axios');
-
 module.exports = async (req, res) => {
     const { uid } = req.query;
 
-    try {
-        const response = await axios.get(`https://example.com/freefire/api?uid=${uid}`);
-        res.status(200).json(response.data);
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
+    // Simulate a response for testing
+    const mockData = {
+        uid: uid,
+        name: "Test Player",
+        level: 50,
+        rank: "Diamond",
+        kills: 1200,
+        matches: 500
+    };
+
+    res.status(200).json(mockData);
 };
