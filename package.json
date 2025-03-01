@@ -1,14 +1,9 @@
 {
   "name": "freefire-info-api",
   "version": "1.0.0",
-  "main": "freefire.js",
   "scripts": {
-    "start": "node freefire.js"
+    "start": "node api/freefire.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^1.8.1"
   }
