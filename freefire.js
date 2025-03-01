@@ -1,9 +1,9 @@
 module.exports = async (req, res) => {
     const { uid } = req.query;
 
-    // Simulate a response for testing
+    // Mock response for testing
     const mockData = {
-        uid: uid,
+        uid: uid || "Unknown UID",
         name: "Test Player",
         level: 50,
         rank: "Diamond",
